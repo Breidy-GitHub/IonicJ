@@ -1,0 +1,102 @@
+#Cabeza {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+
+  
+  }
+  
+  #Cabeza p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #Cabeza img {
+    height: 200px;
+    width: 175px;
+    margin-left: 15%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  #Personalidad {
+    margin: 40px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  #Botones {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+  
+  #Botones button {
+    width: 112px;
+    height: 40px;
+    background-color: black;
+    color: rgb(111, 255, 0);
+    margin-right: 25px;
+  }
+  
+  #Botones button:hover {
+    color: white;
+    background-color: rgb(0, 72, 255);
+  }
+  
+  #Salida {
+    text-align: right;
+    padding: 20px;
+  }
+  
+  #Salida button {
+    width: 65px;
+    height: 40px;
+    background-color: black;
+    color: aqua;
+  }
+  
+  #Salida button:hover {
+    color: white;
+    background-color: red;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  .title-text {
+    margin-right: auto;
+  }
+  
+  button.custom-button {
+    margin-left: 10px;
+    background-color: black;
+    color: aqua;
+  }
+  
+  button.custom-button:hover {
+    color: white;
+    background-color: red;
+  }
+  
+  ion-header ion-title.toolbar-title {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  

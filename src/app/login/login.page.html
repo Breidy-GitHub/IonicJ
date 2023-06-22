@@ -1,0 +1,28 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title class="center-title">INICIA SESIÓN</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-card>
+      <ion-card-content class="centered-content">
+        <form (ngSubmit)="login()">
+          <ion-item>
+            <h2>¡INICIA TU SESIÓN AQUÍ!</h2>
+            <ion-label position="floating">Usuario:</ion-label>
+            <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Contraseña:</ion-label>
+            <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+          </ion-item>
+          <ion-button type="submit"> Iniciar sesión </ion-button>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+
+

@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="title-container">
+      <span class="title-text">Hoja De Vida</span>
+      <div id="Salida">
+        <button id="Salida" class="custom-button left-button" (click)="navigateToLogin()">Salir</button>
+      </div>    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="Cabeza">
+    <p>
+      <b>Breidy Osorio Londoño</b><br><br>
+      Soy Agente de Service Desk con 4 años de experiencia en el rubro. He estudiado Técnico en Sistemas y he adquirido habilidades en Excel, ServiceNow y CA. Disfruto de la fotografía y los videojuegos en mi tiempo libre.
+      Actualmente me encuentro estudiando la Tecnología de análisis y desarrollo de software.
+      Ficha: 2503816
+      Programa: Análisis y desarrollo de software
+    </p>
+    <img src="./assets/aYo.png" alt="Imagen">
+  </div>
+
+  <div id="Personalidad">
+    <h2>Experiencia laboral</h2>
+    <p><strong>Agente Service Desk 1B - Actualmente</strong></p>
+    <p>Sonda de Colombia S.A</p>
+    <ul>
+      <li>Experiencia en la utilización de herramientas especializadas como ROBOT, así como en la configuración e implementación de mejoras continuas.</li>
+      <li>Experiencia en la gestión de casos con aislamientos.</li>
+      <li>Creación de tickets para atender y resolver problemas de los clientes.</li>
+      <li>Capacité a nuevos empleados de atención al cliente.</li>
+      <li>Escalar fallas complejas al equipo gerencial.</li>
+      <li>Responder preguntas de los clientes y brindar una solución.</li>
+    </ul>
+  </div>
+
+  <div id="Personalidad">
+    <p><strong>Supervisor - 2019</strong></p>
+    <p>Registraduría General de la Nación</p>
+    <ul>
+      <li>Trabajé como supervisor de indicadores y cumplimiento en el proyecto de votaciones de 2019.</li>
+      <li>Me encargué de monitorear el progreso del proyecto y de garantizar que se cumplieran los objetivos y plazos establecidos.</li>
+      <li>Trabajé en estrecha colaboración con el equipo de gestión del proyecto para asegurarme de que se cumplieran los indicadores de desempeño.</li>
+      <li>Identifiqué desviaciones y trabajé con el equipo para implementar medidas correctivas y mantener el proyecto en la dirección correcta.</li>
+    </ul>
+  </div>
+
+  <div id="Botones">
+    <button class="custom-button" (click)="navigateToMultimedia()">Multimedia</button>
+    <button class="custom-button" (click)="navigateToProyectos()">Proyectos Realizados</button>
+  </div>
+</ion-content>
+

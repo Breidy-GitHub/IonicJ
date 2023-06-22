@@ -1,0 +1,29 @@
+.gallery-container {
+    max-width: 6000px; 
+    overflow-x: scroll; 
+}
+
+.gallery {
+    display: inline-flex; 
+}
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#Botones {
+    margin-top: 18px;
+    text-align: center;
+}
+.custom-button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: aqua;
+}
+
+.Titulo ion-title {
+    text-align: center;
+  }
+  
